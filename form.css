@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(235, 195, 195);
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+#form1{
+    border:1px solid rgb(2, 2, 2);
+    width: 400px;
+    height: 400px;
+    margin-left: 480px;
+    margin-top: -80px;
+    animation-name: example;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    box-shadow:0px 0px 0px 5px rgb(5, 5, 5);
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+  0%{
+    border-color: yellow;
+    box-shadow:1px 1px 1px 10px rgb(224, 224, 49);
+  }  
+  25%{
+    border-color: rgb(14, 197, 69);
+    box-shadow:1px 1px 1px 10px rgb(14, 197, 69);
+  }
+  50%{
+    border-color: rgb(14, 115, 197);
+    box-shadow:1px 1px 1px 10px rgb(14, 115, 197);
+  }
+  75%{
+    border-color: rgb(89, 24, 209);
+    box-shadow:1px 1px 1px 10px rgb(89, 24, 209);
+  }
+  100%{
+    border-color: rgb(212, 30, 39);
+    box-shadow:1px 1px 1px 10px rgb(212, 30, 39);
+  }
+}
+#one{
+    margin-top: 50px;
+    color: wheat;
+    margin-left: 130px;
+    animation-name: examples;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-style: italic;
+}
+@keyframes examples{
+    0%{
+      color: yellow;
+    }  
+    25%{
+      color: rgb(14, 197, 69);
+    }
+    50%{
+      color: rgb(14, 115, 197);
+    }
+    75%{
+      color: rgb(89, 24, 209);
+    }
+    100%{
+      color: rgb(212, 30, 39);
+    }
+  }
+  #three{
+    color: white;
+    animation-name: examples;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 10px;
+  }
+  #two{
+    border: none;
+    background-color: rgb(235, 195, 195);
+    border-bottom: 2px dashed white;
+    animation-name: exampless;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 100px;
+    width: 200px;
+  }
+  @keyframes exampless{
+    0%{
+     border-color: yellow;
+    }  
+    25%{
+      border-color: rgb(14, 197, 69);
+    }
+    50%{
+      border-color: rgb(14, 115, 197);
+    }
+    75%{
+      border-color: rgb(89, 24, 209);
+    }
+    100%{
+      border-color: rgb(212, 30, 39);
+    }
+  }
+  #twoo{
+    border: none;
+    background-color: rgb(235, 195, 195);
+    border-bottom: 2px dashed white;
+    animation-name: examplessq;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 100px;
+    width: 200px;
+  }
+  @keyframes examplessq{
+    0%{
+     border-color: yellow;
+    }  
+    25%{
+      border-color: rgb(14, 197, 69);
+    }
+    50%{
+      border-color: rgb(14, 115, 197);
+    }
+    75%{
+      border-color: rgb(89, 24, 209);
+    }
+    100%{
+      border-color: rgb(212, 30, 39);
+    }
+  }
+  #four{
+    color: white;
+    animation-name: examples;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 10px;
+  }
+  #btn{
+    color: rgb(210, 247, 77);
+    background-color: rgb(89, 183, 226);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    animation-name: examplesss;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+  @keyframes examplesss{
+    0%{
+     background-color: yellow;
+     color: black;
+    }  
+    25%{
+      background-color: rgb(14, 197, 69);
+      color: rgb(177, 110, 149);
+    }
+    50%{
+      background-color: rgb(14, 115, 197);
+      color: rgb(60, 231, 194);
+    }
+    75%{
+      background-color: rgb(89, 24, 209);
+      color: rgb(230, 233, 62);
+    }
+    100%{
+      background-color: rgb(212, 30, 39);
+      color: rgb(117, 72, 241);
+    }
+  }
+  a{
+    color: yellow;
+    animation-name: examples;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 140px;
+  }
+  #hiLove{
+   position: relative;
+   top: -6px;
+   left: 570px;
+  }
